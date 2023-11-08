@@ -1,0 +1,40 @@
+{
+  "pods": [
+    {
+      "category": "pods",
+      "name": "Classica Nespresso",
+      "image": "classic_nespresso.jpeg",
+      "type": "Compatibili Nespresso*",
+      "blend": "Classica",
+      "creaminess": 5,
+      "roast": 4,
+      "aroma": 4,
+      "intensity": 5,
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "pods",
+      "name": "Classica Espresso Point",
+      "image": "classic_espresso_point.jpeg",
+      "type": "Compatibili Espresso Point*",
+      "blend": "Classica",
+      "creaminess": 5,
+      "roast": 4,
+      "aroma": 4,
+      "intensity": 5,
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    }
+  ]
+}

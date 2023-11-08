@@ -1,0 +1,18 @@
+{
+  "accessories": [
+    {
+      "category": "accessories",
+      "name": "SET 6 Tazzine in ceramica",
+      "image": "accessori_set_6_tazzine_ceramica.jpeg",
+      "type": "Accessori",
+      "box": ["1 Box (100 pz.)"]
+    },
+    {
+      "category": "accessories",
+      "name": "SET 6 Tazze per Cappuccino",
+      "image": "accessori_set_6_tazze_cappuccino.jpeg",
+      "type": "Accessori",
+      "box": ["1 Box (100 pz.)"]
+    }
+  ]
+}

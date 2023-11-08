@@ -1,0 +1,23 @@
+footer {
+  background-color: #2a2a2b;
+  color: #777777;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  .col {
+    max-width: 180px;
+  }
+  h4 {
+    color: #eeeeee;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
+}
+
+.bottom-footer {
+  background-color: $c1;
+  padding: 20px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 300;
+}

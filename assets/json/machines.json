@@ -1,0 +1,60 @@
+{
+  "machines": [
+    {
+      "category": "machines",
+      "name": "Faber Slot Plast + 1 Box da 150 cialde Miscela Origini",
+      "image": "PLAST_BORGOGNA.jpeg",
+      "type": "Macchine",
+      "description": "Compatta e dal design all’avanguardia, sobria nelle linee, dalle proporzioni equilibrate, è perfetta sia per la casa che per l’ufficio.Ideata per performance ad alto volume e progettata per durare per sempre. Telaio in metallo verniciato o versione Body Inox Coperture in Abs Pompa 15 bar Scam...",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "machines",
+      "name": "Pro Deluxe Pure White/Gold + 1 box da 150 cialde Miscela Origini",
+      "image": "Deluxe-white-gold.jpeg",
+      "type": "Macchine",
+      "description": "CPro Total performance e resistenza con un design unico. Corpo intero in acciaio inox mat Vano poggiatazze Piastra di supporto cromo Leva cromata Pomello in ottone Vaschetta raccogliacqua abs Griglia poggia tazza in ottone Pompa 15 bar Scambiatore in alluminio Siluro in ottone Pressacialda regolabil...",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "machines",
+      "name": "Pro Deluxe Mat Black/Gold + 1 box da 150 cialde Miscela Origini",
+      "image": "Deluxe-black-gold.jpeg",
+      "type": "Macchine",
+      "description": "Una miscela nata dall’incontro di pregiate qualità di caffè arabica centro-americani e pregiatissimi caffè robusta indiani selezionati tostati e macinati secondo l’antica tradizione napoletana.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "machines",
+      "name": "Pro Deluxe Acid Green/Gold + 1 box da 150 cialde Miscela Origini",
+      "image": "Deluxe-green-gold.jpeg",
+      "type": "Macchine",
+      "description": "Pro Total performance e resistenza con un design unico. Corpo intero in acciaio inox mat Vano poggiatazze Piastra di supporto cromo Leva cromata Pomello in ottone Vaschetta raccogliacqua abs Griglia poggia tazza in ottone Pompa 15 bar Scambiatore in alluminio Siluro in ottone Pressacialda regolabil...",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    }
+  ]
+}

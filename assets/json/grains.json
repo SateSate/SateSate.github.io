@@ -1,0 +1,79 @@
+{
+  "grains": [
+    {
+      "category": "grains",
+      "name": "Grani - Miscela Bar Origini",
+      "image": "grani_origini.jpeg",
+      "type": "Grani",
+      "blend": "Origini",
+      "description": "Miscela di selezionate e pregiate qualità di caffè, sapientemente dosate per un ottimo espresso in tazza secondo la migliore tradizione italiana.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grains",
+      "name": "Grani - Miscela Bar Arancio n°10",
+      "image": "grani_arancio.jpeg",
+      "type": "Grani",
+      "blend": "Arancio",
+      "description": "Un caffè dedicato a chi apprezza il gusto unico e l’aroma esclusivo della più tradizionale delle nostre miscele.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grains",
+      "name": "Grani - Miscela Bar Rosso n°20",
+      "image": "grani_rosso.jpeg",
+      "type": "Grani",
+      "blend": "Rosso",
+      "description": "Un caffè cremoso dal sapore intenso creato dalle migliori varietà brasiliane e centroamericane.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grains",
+      "name": "Grani - Miscela Bar Verde n°30",
+      "image": "grani_verde.jpeg",
+      "type": "Grani",
+      "blend": "Verde",
+      "description": "Un caffè delicato ottenuto dall’accurata selezione delle qualità più pregiate e ricercate.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grains",
+      "name": "Grani - Miscela Bar Bluette n°40",
+      "image": "grani_bluette.jpeg",
+      "type": "Grani",
+      "blend": "Bluette",
+      "description": "Una miscela resa inconfondibile dalla fusione dei migliori caffè centro-americani che le donano fragranza e gusto straordinari.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    }
+  ]
+}

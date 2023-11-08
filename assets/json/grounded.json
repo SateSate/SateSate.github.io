@@ -1,0 +1,79 @@
+{
+  "grounded": [
+    {
+      "category": "grounded",
+      "name": "Macinato in barattolo - Brasile",
+      "image": "macinati_barattolo_brasile.jpeg",
+      "type": "Macinati",
+      "blend": "Brasile",
+      "description": "Un caffè mono origine dall’aroma intenso molto corposo dal gusto dolce, acidità ﬁne e aroma fruttato con sentori di cacao, mandorla e nocciola.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grounded",
+      "name": "Macinato in barattolo - Guatemala",
+      "image": "macinati_barattolo_guatemala.jpeg",
+      "type": "Macinati",
+      "blend": "Guatemala",
+      "description": "Caffè particolarmente profumato si presenta molto dolce e corposo, con una gradevole vena acidula di frutta fresca che si va ad unire al gusto tipico del cioccolato e delle spezie.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grounded",
+      "name": "Macinato in barattolo - Espresso Napoletano",
+      "image": "macinati_barattolo_espresso_napoletano.jpeg",
+      "type": "Macinati",
+      "blend": "Espresso Napoletano",
+      "description": "Una miscela nata dall’incontro di pregiate qualità di caffè arabica centro-americani e pregiatissimi caffè robusta indiani selezionati tostati e macinati secondo l’antica tradizione napoletana.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grounded",
+      "name": "Macinato - Gran Riserva",
+      "image": "macinati_gran_riserva.jpeg",
+      "type": "Macinati",
+      "blend": "Gran Riserva",
+      "description": "Un macinato ottenuto dalla selezione delle più pregiate qualità di caffè arabica, sapientemente miscelate per un ottimo espresso in tazza secondo la migliore tradizione italiana.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    },
+    {
+      "category": "grounded",
+      "name": "Macinato - Tostatura Fuoco Lento",
+      "image": "macinati_fuoco_lento.jpeg",
+      "type": "Macinati",
+      "blend": "Fuoco Lento",
+      "description": "Il caffè prodotto con una tostatura a fuoco lento consente la completa ed uniforme cottura dei preziosi chicchi impiegati. La naturale tostatura dona al caffè in tazza fragranza e genuinità.",
+      "box": [
+        "1 Box (100 pz.)",
+        "2 Box (200 pz.)",
+        "3 Box (300 pz.)",
+        "4 Box (400 pz.)",
+        "5 Box (500 pz.)"
+      ]
+    }
+  ]
+}
