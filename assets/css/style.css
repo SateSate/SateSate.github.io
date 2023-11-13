@@ -172,6 +172,8 @@ footer h4 {
 }
 .categories .category:hover {
   transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 .categories .category:nth-child(1) {
   background-color: #bda364;
