@@ -126,6 +126,7 @@ h6 {
 .menu {
   text-align: right;
   height: 100%;
+  position: relative;
 }
 .menu ul {
   display: flex;
@@ -136,6 +137,32 @@ h6 {
   color: #3f291b;
   font-weight: 600;
 }
+@media screen and (max-width: 767px) {
+  .menu ul {
+    position: absolute;
+    right: -100%;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    z-index: 8;
+    top: -45px;
+    gap: 0;
+  }
+  .menu ul li {
+    padding: 20px;
+  }
+  .menu ul li:first-child {
+    padding-top: 120px;
+  }
+}
+.menu ul.open {
+  right: -15px;
+  color: #cccccc;
+}
 
 .header-bottom {
   height: 200px;
@@ -144,6 +171,57 @@ h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.burger-menu {
+  position: relative;
+  cursor: pointer;
+  width: 40px;
+  margin-left: auto;
+  height: 100%;
+  padding-top: 15px;
+  z-index: 9;
+}
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}
+.burger-menu span {
+  height: 4px;
+  width: 30px;
+  display: block;
+  margin-bottom: 5px;
+  background-color: #3f291b;
+  transition: all 0.5s;
+}
+.burger-menu.active span {
+  background: #ccc;
+}
+.burger-menu.active span:first-child {
+  transform: translate(0px, 8px) rotate(45deg);
+}
+.burger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+.burger-menu.active span:last-child {
+  transform: translate(0px, -10px) rotate(320deg);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  background-color: rgba(63, 41, 27, 0.9);
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+.overlay.active {
+  opacity: 1;
+  z-index: 7;
 }
 
 .container-footer {
@@ -570,6 +648,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   color: #3f291b;
+  overflow: hidden;
 }
 
 .container {
