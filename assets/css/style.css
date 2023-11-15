@@ -99,7 +99,7 @@ h6 {
   flex-wrap: wrap;
   color: #000000;
   height: 45px;
-  background-color: #bda364;
+  background-color: #cccccc;
   font-size: 12px;
   font-weight: 400;
   text-transform: none;
@@ -116,14 +116,25 @@ h6 {
 .header-middle {
   height: 50px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: #fff;
 }
 .header-middle .logo-holder {
   position: absolute;
   top: 0;
+}
+
+.menu {
+  text-align: right;
+  height: 100%;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  gap: 30px;
+  color: #3f291b;
+  font-weight: 600;
 }
 
 .header-bottom {
@@ -135,24 +146,41 @@ h6 {
   object-fit: cover;
 }
 
-footer {
+.container-footer {
+  background-color: #2a2a2b;
+}
+.container-footer footer {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
   background-color: #2a2a2b;
   color: #777777;
-  padding: 40px;
+  padding: 40px 15px;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
-footer .col {
+@media screen and (max-width: 992px) {
+  .container-footer footer {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container-footer footer {
+    justify-content: flex-start;
+  }
+}
+.container-footer footer .col {
   max-width: 180px;
 }
-footer h4 {
+.container-footer footer h4 {
   color: #eeeeee;
   font-weight: 300;
   margin-bottom: 15px;
 }
 
 .bottom-footer {
-  background-color: #bda364;
+  background-color: #cccccc;
   padding: 20px;
   text-align: center;
   font-size: 13px;
@@ -161,14 +189,27 @@ footer h4 {
 
 .categories {
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   top: -67px;
+}
+@media screen and (max-width: 992px) {
+  .categories {
+    align-items: center;
+    justify-content: center;
+  }
 }
 .categories .category {
   flex: 1;
   transition: all 0.2s ease-out;
-  color: #bda364;
+  color: #cccccc;
   text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .categories .category {
+    flex: 0 0 50%;
+    max-width: 260px;
+  }
 }
 .categories .category:hover {
   transform: scale(1.1);
@@ -208,6 +249,12 @@ footer h4 {
   gap: 30px;
   margin-bottom: 70px;
 }
+@media screen and (max-width: 992px) {
+  .suggested {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
 .suggested .left,
 .suggested .right {
   flex: 1;
@@ -216,12 +263,18 @@ footer h4 {
   max-height: 540px;
   object-fit: cover;
 }
+@media screen and (max-width: 992px) {
+  .suggested .right img {
+    margin: 0 auto;
+    max-height: 320px;
+  }
+}
 .suggested .title {
   font-size: 30px;
   letter-spacing: 9px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #bda364;
+  color: #3f291b;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -231,6 +284,12 @@ footer h4 {
   display: flex;
   margin-bottom: 30px;
 }
+@media screen and (max-width: 992px) {
+  .product-box {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+}
 .product-box:last-child {
   margin-bottom: 0;
 }
@@ -239,11 +298,21 @@ footer h4 {
   text-align: center;
   flex: 1;
 }
+@media screen and (max-width: 992px) {
+  .product-box .product {
+    padding: 15px;
+  }
+}
 .product-box .product img {
   width: 100%;
   height: 273px;
   object-fit: contain;
   margin-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+  .product-box .product img {
+    height: 220px;
+  }
 }
 .product-box .product .btn {
   margin-bottom: 20px;
@@ -255,19 +324,51 @@ footer h4 {
   background-size: cover;
   padding: 70px 0;
 }
+@media screen and (max-width: 992px) {
+  .compatibility {
+    padding: 30px 15px;
+  }
+}
 .compatibility .title {
   text-align: center;
   color: #4f3828;
   margin-bottom: 70px;
+}
+@media screen and (max-width: 992px) {
+  .compatibility .title {
+    margin-bottom: 40px;
+  }
 }
 .compatibility .title h2 {
   font-size: 30px;
   letter-spacing: 9px;
   line-height: 1.1;
 }
+@media screen and (max-width: 992px) {
+  .compatibility .title h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .compatibility .title h2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 6px;
+  }
+}
 .compatibility .title p {
   font-size: 20px;
   letter-spacing: 0.2px;
+}
+@media screen and (max-width: 992px) {
+  .compatibility .title p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .compatibility .title p {
+    font-size: 13px;
+  }
 }
 .compatibility .grouped {
   display: grid;
@@ -275,6 +376,17 @@ footer h4 {
   justify-content: space-between;
   row-gap: 70px;
   margin-bottom: 70px;
+}
+@media screen and (max-width: 992px) {
+  .compatibility .grouped {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .compatibility .grouped {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .compatibility .grouped .circle {
   transition: all 0.3s ease;
@@ -288,12 +400,24 @@ footer h4 {
   height: 200px;
   margin: 0 auto;
 }
+@media screen and (max-width: 992px) {
+  .compatibility .grouped img {
+    max-width: 160px;
+    width: 100%;
+    height: auto;
+  }
+}
 .compatibility .disclaimer {
   text-align: center;
   font-style: italic;
   font-size: 16px;
   letter-spacing: 0.2px;
   line-height: 28px;
+}
+@media screen and (max-width: 992px) {
+  .compatibility .disclaimer {
+    font-size: 13px;
+  }
 }
 
 .quality {
@@ -303,6 +427,11 @@ footer h4 {
   background-size: cover;
   color: white;
 }
+@media screen and (max-width: 992px) {
+  .quality {
+    padding: 15px 0;
+  }
+}
 .quality h2 {
   line-height: 45px;
   font-size: 30px;
@@ -310,11 +439,23 @@ footer h4 {
   letter-spacing: 8px;
   font-weight: 400;
 }
+@media screen and (max-width: 992px) {
+  .quality h2 {
+    font-size: 26px;
+    line-height: 40 px;
+  }
+}
 .quality h3 {
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
   letter-spacing: 0.5px;
+}
+@media screen and (max-width: 992px) {
+  .quality h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
 
 .products-holder {
@@ -322,11 +463,21 @@ footer h4 {
   gap: 40px;
   max-width: 1200px;
 }
+@media screen and (max-width: 1200px) {
+  .products-holder {
+    flex-direction: column;
+  }
+}
 .products-holder .list {
   display: flex;
   flex-direction: column;
   flex: 0 0 270px;
   gap: 8px;
+}
+@media screen and (max-width: 1200px) {
+  .products-holder .list {
+    flex: unset;
+  }
 }
 .products-holder .list a {
   background-color: #2a2a2b;
@@ -352,8 +503,28 @@ footer h4 {
   gap: 60px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 992px) {
+  .products .product {
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .products .product > div {
   flex: 1;
+}
+@media screen and (max-width: 992px) {
+  .products .product > div {
+    flex: 0 0 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .products .product > div {
+    flex: 0 0 100%;
+  }
 }
 .products .product .img-holder {
   flex: 0 0 180px;
@@ -379,6 +550,11 @@ footer h4 {
 .products .product .package {
   flex: 1;
 }
+@media screen and (max-width: 992px) {
+  .products .product .package {
+    flex: 0 0 100%;
+  }
+}
 .products .product .package ul {
   margin-top: 10px;
   font-size: 14px;
@@ -390,9 +566,10 @@ footer h4 {
 }
 
 body {
-  background-color: #000;
+  background-color: #e6e6e6;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  color: #3f291b;
 }
 
 .container {
@@ -409,22 +586,23 @@ body {
   text-align: center;
   padding: 9px;
   transition: all 0.3s ease;
+  font-weight: 600;
 }
 .btn.primary {
-  background-color: #000;
-  color: #bda364;
+  background-color: #3f291b;
+  color: #ccc;
 }
 .btn.primary:hover {
   background-color: #bda364;
-  color: #000;
+  color: #3f291b;
 }
 
 .section .title {
   text-align: center;
-  color: #fff;
   margin-bottom: 10px;
   font-size: 18px;
   letter-spacing: 5px;
+  font-weight: 600;
 }
 .section .icon {
   width: 100px;
@@ -448,16 +626,23 @@ body {
   top: 60%;
 }
 .section .btn-more .btn {
-  border: 1px solid #bda364;
-  color: #bda364;
+  border: 1px solid #3f291b;
+  color: #3f291b;
   transition: all 0.3s ease;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
   width: max-content;
   margin: 50px auto;
+  padding: 12px 20px;
+}
+@media screen and (max-width: 400px) {
+  .section .btn-more .btn {
+    font-size: 14px;
+  }
 }
 .section .btn-more .btn:hover {
-  background-color: #bda364;
-  color: #000;
+  background-color: #3f291b;
+  color: #bda364;
 }
 
 /*# sourceMappingURL=style.css.map */

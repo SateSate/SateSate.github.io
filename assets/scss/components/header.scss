@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   color: #000000;
   height: 45px;
-  background-color: $c1;
+  background-color: $secondary;
   font-size: 12px;
   font-weight: 400;
   text-transform: none;
@@ -22,13 +22,24 @@
 .header-middle {
   height: 50px;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   color: #fff;
   .logo-holder {
     position: absolute;
     top: 0;
+  }
+}
+
+.menu {
+  text-align: right;
+  height: 100%;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    gap: 30px;
+    color: $primary;
+    font-weight: 600;
   }
 }
 

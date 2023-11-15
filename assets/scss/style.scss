@@ -10,9 +10,10 @@
 @import './components/product-list.scss';
 
 body {
-  background-color: #000;
+  background-color: #e6e6e6;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  color: $primary;
 }
 
 .container {
@@ -29,12 +30,13 @@ body {
   text-align: center;
   padding: 9px;
   transition: all 0.3s ease;
+  font-weight: 600;
   &.primary {
-    background-color: #000;
-    color: $c1;
+    background-color: $primary;
+    color: #ccc;
     &:hover {
       background-color: $c1;
-      color: #000;
+      color: $primary;
     }
   }
 }
@@ -42,10 +44,10 @@ body {
 .section {
   .title {
     text-align: center;
-    color: #fff;
     margin-bottom: 10px;
     font-size: 18px;
     letter-spacing: 5px;
+    font-weight: 600;
   }
   .icon {
     width: 100px;
@@ -70,15 +72,20 @@ body {
   }
   .btn-more {
     .btn {
-      border: 1px solid $c1;
-      color: $c1;
+      border: 1px solid $primary;
+      color: $primary;
       transition: all 0.3s ease;
-      font-size: 14px;
+      font-size: 16px;
+      font-weight: 700;
       width: max-content;
       margin: 50px auto;
+      padding: 12px 20px;
+      @media screen and (max-width: 400px) {
+        font-size: 14px;
+      }
       &:hover {
-        background-color: $c1;
-        color: #000;
+        background-color: $primary;
+        color: $c1;
       }
     }
   }

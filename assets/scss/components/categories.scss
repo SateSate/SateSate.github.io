@@ -1,13 +1,22 @@
 .categories {
   display: flex;
+  flex-wrap: wrap;
   position: relative;
   top: -67px;
+  @media screen and (max-width: 992px) {
+    align-items: center;
+    justify-content: center;
+  }
 
   .category {
     flex: 1;
     transition: all 0.2s ease-out;
-    color: $c1;
+    color: $secondary;
     text-align: center;
+    @media screen and (max-width: 767px) {
+      flex: 0 0 50%;
+      max-width: 260px;
+    }
 
     &:hover {
       transform: scale(1.1);
