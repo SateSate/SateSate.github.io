@@ -14,7 +14,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: $primary;
-  overflow: hidden;
+  &.overflow-h {
+    overflow: hidden;
+  }
 }
 
 .container {

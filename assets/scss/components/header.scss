@@ -33,6 +33,9 @@
   text-align: right;
   height: 100%;
   position: relative;
+  @media screen and (max-width: 767px) {
+    overflow: hidden;
+  }
   ul {
     display: flex;
     align-items: center;
@@ -43,17 +46,17 @@
     font-weight: 600;
     @media screen and (max-width: 767px) {
       position: absolute;
-      right: -100%;
       transition: all 0.3s ease-in-out;
       background-color: #000;
       flex-direction: column;
       width: 50%;
       align-items: flex-start;
       justify-content: flex-start;
-      height: 100vh;
       z-index: 8;
       top: -45px;
       gap: 0;
+      transform: translateX(calc(100% + 15px));
+      right: 0;
       li {
         padding: 20px;
         &:first-child {
@@ -62,9 +65,13 @@
       }
     }
     &.open {
-      right: -15px;
+      transform: translateX(0+ 15px);
       color: $secondary;
+      height: 100vh;
     }
+  }
+  &.overflow {
+    overflow: visible;
   }
 }
 
@@ -116,8 +123,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   background-color: rgba($color: $primary, $alpha: 0.9);
   transition: all 0.5s ease-in-out;
